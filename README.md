@@ -102,3 +102,38 @@ repo/
 ├── README.md
 └── tsconfig.json
 ```
+
+## Installing Shadcn UI Components
+
+```bash
+# Go to the packages/ui directory
+cd packages/ui
+```
+
+```bash
+# Install the component
+pnpm dlx shadcn@canary add [COMPONENT]
+```
+
+```bash
+# Example
+pnpm dlx shadcn@canary add label
+```
+
+> [!NOTE]
+>
+> - There is a bug in Shadcn CLI that imports the wrong path for the utils
+> - The correct path is `@app/ui/lib/utils` instead of `@app/lib/utils` which is the default path. For now you must manually change the path when adding a new component.
+>
+> <https://github.com/shadcn-ui/ui/discussions/6162>
+
+## Use it in the web app
+
+```tsx
+// apps/web...
+import { Label } from "@app/ui/components/label";
+
+function MyComponent() {
+  return <Label>Hello World</Label>;
+}
+```
