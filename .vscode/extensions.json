@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments", // Better comments
+    "usernamehw.errorlens", // Error lens
+    "dsznajder.es7-react-js-snippets", // ES7 React snippets
+    "ms-vsliveshare.vsliveshare-pack", // Live share
+    "yoavbls.pretty-ts-errors", // Pretty TS Errors
+    "bradlc.vscode-tailwindcss", // Tailwind CSS
+    "dbaeumer.vscode-eslint", // ESLint
+    "esbenp.prettier-vscode", // Prettier code formatter
+    "shardulm94.trailing-spaces", // Show trailing spaces
+    "davidanson.vscode-markdownlint", // Markdown linting
+    "Gruntfuggly.todo-tree", // Highlights TODO comments
+    "bierner.emojisense", // Emoji sense for markdown
+    "stkb.rewrap" // rewrap comments after n characters on one line
+  ]
+}
