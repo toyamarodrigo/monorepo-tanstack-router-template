@@ -98,7 +98,7 @@ repo/
 ├── eslint.config.mjs
 ├── package.json
 ├── pnpm-lock.yaml
-├── pnpm-workspace.yaml
+├── pnpm-workspace.yaml # (pnpm workspace configuration)
 ├── README.md
 └── tsconfig.json
 ```
