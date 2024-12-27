@@ -21,7 +21,11 @@ This monorepo is a template for a monorepo with Tanstack Router.
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-repo/monorepo-with-tanstack-router.git
+git clone https://github.com/toyamarodrigo/monorepo-tanstack-router-template
+
+# or
+
+gh repo clone toyamarodrigo/monorepo-tanstack-router-template
 ```
 
 ```bash
