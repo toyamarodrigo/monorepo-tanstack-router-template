@@ -2,8 +2,7 @@
 
 This monorepo is a template for a monorepo with Tanstack Router.
 
-![image](https://github.com/user-attachments/assets/f1c77a9a-12e4-40ec-a9b0-5cfe7cd15fdf)
-
+![image](https://github.com/user-attachments/assets/11b502ef-ae70-4002-a05a-f08d695681e4)
 
 ## Stack
 
