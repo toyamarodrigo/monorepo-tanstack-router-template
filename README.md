@@ -114,15 +114,21 @@ cd packages/ui
 
 ```bash
 # Install the component
-pnpm dlx shadcn@canary add [COMPONENT]
+pnpm dlx shadcn@2.1.6 add [COMPONENT]
 ```
 
 ```bash
 # Example
-pnpm dlx shadcn@canary add label
+pnpm dlx shadcn@2.1.6 add label
 ```
 
+> [!IMPORTANT]
+> FOR NOW USE @2.1.6 VERSION OF SHADCN CLI BECAUSE THERE IS A BUG IN THE CANARY VERSION THAT IMPORTS THE WRONG PATH FOR THE UTILS
+
+---
+
 > [!NOTE]
+> IF USING CANARY VERSION OF SHADCN CLI
 >
 > - There is a bug in Shadcn CLI that imports the wrong path for the utils
 > - The correct path is `@app/ui/lib/utils` instead of `@app/lib/utils` which is the default path. For now you must manually change the path when adding a new component.

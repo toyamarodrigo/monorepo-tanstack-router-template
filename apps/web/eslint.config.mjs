@@ -39,6 +39,5 @@ export default createConfig({
       prev: ["const", "let", "var"],
       next: ["const", "let", "var"],
     }],
-
   },
 });
